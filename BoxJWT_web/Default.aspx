@@ -15,7 +15,6 @@
             $("#Spinner").hide();
         }
         function FileAction(obj) {
-            debugger;
             var action = obj.innerHTML;
             var fileId = obj.value;
             $("#hidSelectedFileId").val(fileId);
@@ -23,7 +22,6 @@
             $("#btnhid").click();
         }
         function OpenFileInNewPage(url) {
-            debugger;
             window.open(url, "_blank");
         }
     </script>
